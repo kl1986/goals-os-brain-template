@@ -6,10 +6,20 @@ Use this template repo to create your own Brain, then clone it locally alongside
 
 ## What cloning this gives you
 
-- A starter layout for your knowledge base, goals, and agent memory
-- Example-populated content so you can see the shape of a working Brain before you commit anything real
-- Config overrides and routing rules you can edit from day one
-- An empty Action Log ready to receive the audit trail of everything an agent does on your behalf
+A complete, navigable folder layout — each top level folder has its own README explaining its purpose and what the Engine/Adapters expect to find there:
+
+```
+config/            # model routing, autonomy policy, routine state, adapter config
+inbox/raw/         # Raw Captures land here first, immutable, per-source subfolders
+log/               # the Action Log — daily files, append-only
+areas/<area>/      # curated layer: goals, standards, decisions + agent memory
+projects/          # active projects with next actions
+wiki/              # machine-compiled knowledge, resynthesisable
+archive/           # processed raw, completed projects
+people/            # person hubs, waiting-for
+```
+
+Everything is empty at clone time — folders fill in as the onboarding Protocol runs and you start using the system. (Whether the template should instead ship with a worked example persona for evaluation before commitment is still an open question — see the PRD.)
 
 ## Getting started
 
