@@ -1,6 +1,6 @@
 # Goals OS Brain Template
 
-This is the blank, example-populated starting point for a **Brain** — the private repo that holds everything personal in [Goals OS](https://github.com/kl1986/goals-os-engine): your knowledge base, goals, agent memories, routing rules, audit logs, and config overrides. One repo, one person's whole life.
+This is the blank, example-populated starting point for a **Brain** — the private repo that holds everything personal in [Goals OS](https://github.com/kl1986/goals-os-engine). Full definition in the Engine's [`CONTEXT.md`](https://github.com/kl1986/goals-os-engine/blob/main/CONTEXT.md#brain) glossary.
 
 Use this template repo to create your own Brain, then clone it locally alongside the [Engine](https://github.com/kl1986/goals-os-engine) — the shared, zero-user-data core that drives protocols against your Brain but never stores anything in it.
 
